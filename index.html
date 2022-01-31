@@ -1,0 +1,121 @@
+
+<style>
+:root{--b-font-main:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--b-font-mono:Consolas,Monaco,monospace;--b-txt:#2e3440;--b-bg-1:#fff;--b-bg-2:#eceff4;--b-line:#eceff4;--b-link:#bf616a;--b-btn-bg:#242933;--b-btn-txt:#fff;--b-focus:#88c0d0}*,:after,:before{box-sizing:border-box}html:focus-within{scroll-behavior:smooth}body{max-width:70ch;padding:0 1rem;margin:auto;background:var(--b-bg-1);font-family:var(--b-font-main);text-rendering:optimizeSpeed;line-height:1.5;color:var(--b-txt);-moz-tab-size:4;tab-size:4;word-break:break-word;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%}address,audio,blockquote,dd,details,dl,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,iframe,ol,p,pre,table,ul,video{margin:0 0 1.5rem}h1,h2,h3,h4,h5,h6{line-height:1.25;margin-top:2rem}h1{font-size:2rem}h2{font-size:1.5rem}h3{font-size:1.25rem}h4{font-size:1rem}h5{font-size:.875rem}h6{font-size:.75rem}a{color:var(--b-link);text-decoration:none}a:hover{text-decoration:underline}img,svg,video{height:auto}embed,iframe,img,object,svg,video{max-width:100%}iframe{border-style:none}abbr[title]{text-decoration:underline;text-decoration:underline dotted}blockquote{margin-left:0;padding:.5rem 0 .5rem 1.5rem;border-left:.25rem solid var(--b-txt)}blockquote>:last-child{margin-bottom:0}small{font-size:.875rem}sub,sup{font-size:.75em;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}hr{height:0;overflow:visible;border:0;border-bottom:1px solid var(--b-line)}code,kbd,pre,samp,tt,var{background:var(--b-bg-2);border-radius:.25rem;padding:.125rem .25rem;font-family:var(--b-font-mono);font-size:.875rem}pre{padding:1rem;border-radius:0;overflow:auto;white-space:pre}pre code{padding:0}details{display:block;padding:.5rem 1rem;background:var(--b-bg-2);border:1px solid var(--b-line);border-radius:.25rem}details>:last-child{margin-bottom:0}details[open]>summary{margin-bottom:1.5rem}summary{display:list-item;cursor:pointer;font-weight:700}summary:focus{box-shadow:none}table{border-collapse:collapse;width:100%;text-indent:0}table caption{margin-bottom:.5rem}tr{border-bottom:1px solid var(--b-line)}td,th{padding:.5rem 0}th{text-align:left}dd,ol,ul{padding-left:2rem}li>ol,li>ul{margin-bottom:0}fieldset{padding:.5rem .75rem;border:1px solid var(--b-line);border-radius:.25rem}legend{padding:0 .25rem}button,input,select,textarea{margin:0;padding:.5rem .75rem;max-width:100%;background:var(--b-bg-2);border:0;border-radius:.25rem;font:inherit;line-height:1.125;color:var(--b-txt)}input:not([size]):not([type=button i]):not([type=submit i]):not([type=reset i]):not([type=checkbox i]):not([type=radio i]),select{width:100%}[type=color i]{min-height:2.125rem}select:not([multiple]):not([size]){padding-right:1.5rem;background-repeat:no-repeat;background-position:right .5rem center;-moz-appearance:none;-webkit-appearance:none;appearance:none}textarea{width:100%;resize:vertical}textarea:not([rows]){height:8rem}[type=button i],[type=reset i],[type=submit i],button{-webkit-appearance:button;display:inline-block;text-align:center;white-space:nowrap;background:var(--b-btn-bg);color:var(--b-btn-txt);border:0;cursor:pointer;transition:opacity .25s}[type=button i]:hover,[type=reset i]:hover,[type=submit i]:hover,button:hover{opacity:.75}[type=button i][disabled],[type=reset i][disabled],[type=submit i][disabled],button[disabled]{opacity:.5}progress{vertical-align:middle}[type=search i]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}::-webkit-input-placeholder{color:inherit;opacity:.5}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:1px dotted ButtonText}:-moz-ui-invalid{box-shadow:none}[aria-busy=true i]{cursor:progress}[aria-controls]{cursor:pointer}[aria-disabled=true i],[disabled]{cursor:not-allowed}:focus,details:focus-within{outline:none;box-shadow:0 0 0 2px var(--b-focus)}@media (prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,:after,:before{animation-delay:-1ms!important;animation-duration:1ms!important;animation-iteration-count:1!important;background-attachment:scroll!important;scroll-behavior:auto!important;transition-delay:0!important;transition-duration:0!important}}select:not([multiple]):not([size]){background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='16' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg' fill='%232e3440'%3E%3Cpath d='M5 6l5 5 5-5 2 1-7 7-7-7 2-1z'/%3E%3C/svg%3E")}</style>
+<h1>Namepet</h1>
+<p>Namepet or <code>pet</code> is a small personal database for naming things
+like keys, hashes, and other hard-to-memorize strings.</p>
+<p>Namepet is <em>not</em> a global registry, it is a <em>petname</em> system.
+Think of it like the contact list on your phone, not a public phone book.</p>
+<p>Like sharing phone contacts, a peer can show their own petnames for the info they share,
+and the software will help you track these 'petname chains' in a sensible way.</p>
+<p>These &quot;contact cards' are called <em>namecards</em> and can be shared in a plain-text format.</p>
+<h2>Install</h2>
+<p><code>npm i -g namepet</code></p>
+<p>The first time you run <code>pet</code> it will confirm a data directory (<code>~/.namepet</code>)
+and prompt you for a name and password to self-name and encrypt a fresh keypair.</p>
+<h2>Example</h2>
+<pre><code>&gt; pet get eth2
+
+0x00000000219ab540356cBB839Cbe05303d7705Fa :
+    'eth2' ~ .
+    'ETH2 Deposit Contract' ~ 'Vitalik Buterin' : ?
+        'vitalik' ~ .
+        'Vitalik Buterin' ~ LetsVerifyInc : ?
+            'letsverify' ~ .
+    'Eth2 Deposit Contract' ~ LetsVerifyInc : ?
+       'letsverify' ~ .
+       
+&gt; pet -x get eth2
+
+==v NAMECARD v==
+0x00000000219ab540356cBB839Cbe05303d7705Fa :
+    'eth2' ~ 'mr name' (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a) :
+        ? (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a)
+    'ETH2 Deposit Contract' ~ 'Vitalik Buterin' (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a) :
+        ? (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a)
+        'vitalik' ~ 'mr name' (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a) :
+            ? (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a)
+        'Vitalik Buterin' ~ 'LetsVerifyInc' (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a) :
+            ? (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a)
+            'letsverify' ~ 'mr name' (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a) :
+                ? (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a)
+    'Eth2 Deposit Contract' ~ 'LetsVerifyInc' (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a) :
+        ? (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a)
+        'letsverify' ~ 'mr name' (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a) :
+            ? (5bb35e9587213483efd172615277eb8ab97c8ba9ec8f6a05b78aa193d79a2a99c8059a3609a89a8ec8afe43c7a8b3b98d6fb5936e4d5c9fa6416fb7f5fb3254a)
+==^ NAMECARD ^==
+</code></pre>
+<h2>Manual</h2>
+<pre><code>pet: the namepet petname system
+version: 0.0.1
+install: npm i -g namepet@0.0.1
+commands:
+  pet set &lt;key&gt; &lt;val&gt;  # set [key,val]             (according to yourself)
+  pet get &lt;key&gt;        # get [key,val]             (according to yourself)
+  pet inv &lt;val&gt;        # get all [key,val] by val  (according to yourself)
+  pet ask &lt;key&gt;        # get all [key,val] by key  (according to anyone)
+  pet all &lt;val&gt;        # get all [key,val] by val  (according to anyone)
+  pet pubkey           # show 'yourself' pubkey
+  pet revoke           # revoke 'yourself' keypair
+  pet audit            # check for revoked / ambiguous petnames
+  pet adopt            # read namecard, then give own petnames
+options:
+  -d [~/.namepet]         override data dir
+  -k [DIR/yourself.json]  override 'yourself' key
+  -x                      export hex data (make output work with `pet adopt`)
+  -l [en]                 plain-language namecard
+cheatsheet:
+  :       (which) is petnamed
+  ~       according to
+  .       yourself
+  ?       a self signed key
+  !       not petnamed
+  \n\t    nesting 'and also'
+  ()      optionally show hex data+sig, for import/export
+</code></pre>
+<h2>Advanced Manual</h2>
+<pre><code>namecard AST:
+    (whichis s1 s2 s3 ...)
+    (accordingto petname nameorkey ?attest)
+    (selfsigned)
+    (yourself)
+    (notpetnamed)
+    (name str)
+    (key hex)
+    (attest nameorkey petname sig)
+
+~/.namepet/
+    yourself.json
+    petnames.sqlite
+
+schema:
+    the Signed Petnamed Data (Signed Petnamed Pubkey)
+    
+==  [from:pubkey, data:blob255, petname:blob255, sig:sig]
+        where from == scry(hash(name, data), sig)
+	
+==  CREATE TABLE petnames (
+        from varchar(255) // pubkey
+        data varchar(255) // string (incl pubkeys)
+        name varchar(255) // string
+        sig  varchar(255) // signature  
+    )
+</code></pre>
+<h2>Theory</h2>
+<p>You can read about the theory of petnames and how they compare to other kinds of naming systems in these links:</p>
+<ul>
+<li><a href="http://skyhunter.com/marcs/petnames/IntroPetNames.html">An Introduction to Petname Systems by Marc Stiegler</a></li>
+<li><a href="https://www.inkandswitch.com/backchannel/">Backchannel by InkAndSwitch</a></li>
+<li><a href="http://www.erights.org/elib/capability/pnml.html">PetName Markup Language</a></li>
+</ul>
+<h2>Ontology</h2>
+<pre><code>In the vast Other there is knowledge too complex to keep in the Mind
+The Other takes many forms and gives many Names
+The Other speaks as if there is no Other and that the Names are Words
+These are Lies!
+The existence of the referant is not falsifiable!
+Pseudoscience!
+Show me the multihash!
+</code></pre>
+<pre><code>the common law is spirit's refuge against the registry
+</code></pre>
